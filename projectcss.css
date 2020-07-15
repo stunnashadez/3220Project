@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+body {
+  padding-top: 70px;
+}
+
+.nav {
+  background-color:#8E8700;
+}
+
+li a{
+  color:white;
+}
+
+li a:hover {
+  color:#F9632C;
+}
+
+.portfolio {
+  padding-left: 460px;
+  padding-right: 460px;
+}
+
+.parallax {
+   /* The image used */
+    background-image: url("http://www.le-happy.com/wp-content/uploads/2015/04/MG_7301.jpg");
+
+    /* Full height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax0 {
+   /* The image used */
+    background-image: url("http://static.tumblr.com/75ee98cfb6cc9b38f367b720baf34123/d6j3qx6/b4Bnlridz/tumblr_static_7vmpvfs5tzk8wk8gwgo4w8ogk_2048_v2.jpg");
+
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  text-align: center;
+}
+
+.parallax0 h1 {
+  padding-top: 150px;
+  color:white;
+  font-size: 50pt;
+  font-family: Helvetica;
+}
+
+.row {
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+footer {
+  background-color: #373D3C;
+}
+
+footer h3 {
+  color:white;
+}
+
+i:hover {
+  background:#F9632C;
+}
+
+i {
+  padding: 30px 30px 30px 30px;
+  border-radius: 10%;
+}
+
+.jumbotron:hover {
+  background-color:#F9632C;
+}
