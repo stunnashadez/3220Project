@@ -15,7 +15,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  * Create new excel sheet
  */
 
-public class CreateExcelSheet {
+public class CreateExcel {
  
  
     public static void main(String[] args) {
