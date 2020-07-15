@@ -18,7 +18,7 @@ public class DeleteExcelSheet {
  
  
     public static void main(String[] args) {
-        String excelFilePath = "JavaBooks.xls";
+        String excelFilePath = "CommunityCentre.xls";
          
         try {
             FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
@@ -26,7 +26,7 @@ public class DeleteExcelSheet {
  
             workbook.removeSheetAt(1);         
  
-            FileOutputStream outputStream = new FileOutputStream("JavaBooks.xls");
+            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xls");
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
