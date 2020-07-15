@@ -17,7 +17,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  * Append new rows to an existing sheet.
  */
 
-public class UpdateExcelSheet {
+public class UpdateExcel {
  
  
     public static void main(String[] args) {
