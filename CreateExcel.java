@@ -21,18 +21,18 @@ public class CreateExcelSheet {
  
  
     public static void main(String[] args) {
-        String excelFilePath = "JavaBooks.xls";
+        String excelFilePath = "CommunityCentre.xls";
          
         try {
             FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
             Workbook workbook = WorkbookFactory.create(inputStream);
  
-            Sheet newSheet = workbook.createSheet("Comments");
+            Sheet newSheet = workbook.createSheet("Directions");
             Object[][] bookComments = {
-                    {"Head First Java", "Funny and Exciting"},
-                    {"Effective Java", "Insightful tips and advices"},
-                    {"Clean Code", "Write Readable Code"},
-                    {"Thinking in Java", "Classic"},
+                    {"Little River Golf Course", "Near Tecumseh Mall"},
+                    {"Roseland Golf and Curling Club", "Near Roseland"},
+                    {"Forest Glade Community Centre", "Near Forest Glade"},
+                    {"Ojibway Nature Centre", "Near Ojibway Park"},
             };
       
             int rowCount = 0;
@@ -53,7 +53,7 @@ public class CreateExcelSheet {
                   
             }       
  
-            FileOutputStream outputStream = new FileOutputStream("JavaBooks.xls");
+            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xls");
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
