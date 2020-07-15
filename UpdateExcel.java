@@ -21,7 +21,7 @@ public class UpdateExcelSheet {
  
  
     public static void main(String[] args) {
-        String excelFilePath = "JavaBooks.xls";
+        String excelFilePath = "CommunityCentre.xls";
          
         try {
             FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
@@ -30,10 +30,7 @@ public class UpdateExcelSheet {
             Sheet sheet = workbook.getSheetAt(0);
  
             Object[][] bookData = {
-                    {"The Passionate Programmer", "Chad Fowler", 16},
-                    {"Software Craftmanship", "Pete McBreen", 26},
-                    {"The Art of Agile Development", "James Shore", 32},
-                    {"Continuous Delivery", "Jez Humble", 41},
+                    {"8787 McHugh St", "WFCU Centre", -82.92748649, 42.31871719},
             };
  
             int rowCount = sheet.getLastRowNum();
@@ -59,7 +56,7 @@ public class UpdateExcelSheet {
  
             inputStream.close();
  
-            FileOutputStream outputStream = new FileOutputStream("JavaBooks.xls");
+            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xls");
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
