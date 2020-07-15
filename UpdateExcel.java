@@ -1,4 +1,4 @@
-package net.codejava.excel;
+
  
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,7 +21,7 @@ public class UpdateExcelSheet {
  
  
     public static void main(String[] args) {
-        String excelFilePath = "CommunityCentre.xls";
+        String excelFilePath = "CommunityCentre.xlsx";
          
         try {
             FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
@@ -56,7 +56,7 @@ public class UpdateExcelSheet {
  
             inputStream.close();
  
-            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xls");
+            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xlsx");
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
