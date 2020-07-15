@@ -5,6 +5,8 @@ There are various documents within this project these include the:
 
 -java files CreateExcel.java, DeleteExcel.java, and UpdateExcel.java which are capable of opening, adding, and deleting the excel sheets which maintain the open data for the website.
 
+-The html files which display a sample of the website's pages.
+
 -The initial pdf for phase 1 of the project, the inception report, which outlines the objectives for the project.
 
 -An example excel sheet which represents the data block of a certain industry. 
