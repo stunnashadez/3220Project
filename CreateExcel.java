@@ -1,5 +1,3 @@
-package net.codejava.excel;
- 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -21,7 +19,7 @@ public class CreateExcelSheet {
  
  
     public static void main(String[] args) {
-        String excelFilePath = "CommunityCentre.xls";
+        String excelFilePath = "CommunityCentre.xlsx";
          
         try {
             FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
@@ -53,13 +51,12 @@ public class CreateExcelSheet {
                   
             }       
  
-            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xls");
+            FileOutputStream outputStream = new FileOutputStream("CommunityCentre.xlsx");
             workbook.write(outputStream);
             workbook.close();
             outputStream.close();
              
-        } catch (IOException | EncryptedDocumentException
-                | InvalidFormatException ex) {
+        } catch (IOException | EncryptedDocumentException ex) {
             ex.printStackTrace();
         }
     }
