@@ -3,7 +3,7 @@ This project entails a website for the City of Windsor which holds the data sets
 
 There are various documents within this project these include the:
 
--java files CreateExcel.java, DeleteExcel.java, and UpdateExcel.java which are capable of opening, adding, and deleting the excel sheets which maintain the open data for the website.
+-Java files CreateExcel.java, DeleteExcel.java, and UpdateExcel.java which are capable of opening, adding, and deleting the excel sheets which maintain the open data for the website.
 
 -The html files which display a sample of the website's pages.
 
