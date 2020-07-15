@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
  * Delete excel sheet
  */
 
-public class DeleteExcelSheet {
+public class DeleteExcel {
  
  
     public static void main(String[] args) {
