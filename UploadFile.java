@@ -10,18 +10,23 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public String uploadFile(String url, String paramater, File file)
+public void UploadFile(String url, String paramater, File file)
 {
     HttpClient httpclient = new DefaultHttpClient();
     httpclient.getParams().setParameter(CoreProtocolPNames.PROTOCOL_VERSION, HttpVersion.HTTP_1_1);
+   
     HttpPost httppost = new HttpPost(url);
     MultipartEntity mpEntity = new MultipartEntity();
-    ContentBody cbFile = new FileBody(file, "image/jpeg");
+    
+    ContentBody cbFile = new FileBody(file, "xlsx");
     mpEntity.addPart(parameter, cbFile);
     httppost.setEntity(mpEntity);
     HttpResponse response = httpclient.execute(httppost);
     HttpEntity resEntity = response.getEntity();
+    
     String response = response.getStatusLine();
     httpclient.getConnectionManager().shutdown();
-    return response;
+    
+    System.out.println("Response: " + response);
+    //return response;
 }
