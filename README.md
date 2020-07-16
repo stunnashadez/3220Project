@@ -1,5 +1,5 @@
 # 3220 Project - Open Source Data Website Documentation: 
-This project entails a website for the City of Windsor which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
+This project entails a website for the <ins>City of Windsor</ins> which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
 
 There are various documents within this project these include the:
 
@@ -14,4 +14,3 @@ There are various documents within this project these include the:
 - The UML diagrams which represent the use case, class, and sequence diagrams.
 
 - The pom.xml file which is used for the java file as a dependency for accessing excel files.
-
