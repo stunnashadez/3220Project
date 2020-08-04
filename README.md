@@ -15,6 +15,6 @@ There are various documents within this project these include the:
 
 - The UML diagrams which represent the use case, class, and sequence diagrams.
 
-- The UML diagrams which represent GRASP patterns.
+- The UML diagrams which represent 5 different GRASP/GoF design patterns.
 
 - The `pom.xml` file which is used for the java file as a dependency for accessing excel files.
