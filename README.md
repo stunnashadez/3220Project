@@ -11,6 +11,8 @@ There are various documents within this project these include the:
 
 - The initial pdf for phase 1 of the project, the inception report, which outlines the objectives for the project.
 
+- Within the respositories you will find information on the inception report, which entails the outline of the project. You will also find information on the phase 2 of the project which starts the first iteration of the project cycle complete with a report detailing the tools used, management methods, proof of concepts and other information.
+
 - An pdf file for phrase 3 of the project, summary report, which fully outlines the process and objectives of this phrase.
 
 - An example excel sheet which represents the data block of a certain industry. 
