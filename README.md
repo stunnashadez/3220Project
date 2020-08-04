@@ -3,7 +3,7 @@ This project entails a website for the <ins>City of Windsor</ins> which holds th
 
 There are various documents within this project these include the:
 
-- Using CKAN to create an open data site.
+- Using CKAN to create an open data portal.
 
 /*- Java files `CreateExcel.java`, `DeleteExcel.java`, `UpdateExcel.java`, and `UploadFile.java` which are capable of opening, adding, and deleting the excel sheets which maintain the open data for the website.*/
 
