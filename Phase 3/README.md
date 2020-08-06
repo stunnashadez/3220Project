@@ -1,2 +1,2 @@
 # README.md
-Phase 3 Elaboration Iteration 2 repository which hold an pdf report, and 5 different UML diagrams which represent the GRASP/GoF patterns design.
+Phase 3 Elaboration Iteration 2 repository holds all the documents and files that were created during the third phase of the developmenmt process for this project. This includes a pdf report that describes the overall development that our team took during the third phase, UML diagrams that we drew which represent 5 different GRASP/GoF design patterns, the code repository that represents the actual open data access portal, read me files, and other miscellaneous files all pertaining to this iteration cycle. 
