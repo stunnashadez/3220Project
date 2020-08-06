@@ -5,6 +5,8 @@ There are various documents within this project, the project has been divided in
 
 <ins>Phase 1</ins>
 
+- Phase 1 contains the pdf file of the Inception report which describes the nature of the project, the vision and goals for the project and describes what steps we plan on taking to develop such a project, shedding light into what will come about in the next phases and iteration cycles.
+
 - CKAN code respository that represents the code that was used to develop an open data access portal.
 
 - The html files which display a sample of the website's pages.
