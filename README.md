@@ -1,4 +1,4 @@
-# 3220 Project - Open Source Data Website Documentation: 
+# 3220 Project - Open Data Access Portal Overview: 
 This project entails a website for the <ins>City of Windsor</ins> which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
 
 There are various documents within this project these include the:
