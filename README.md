@@ -1,4 +1,4 @@
-# 3220 Project - Open Data Access Portal Overview: 
+# 3220 Project - Open Data Access Portal Overview
 This project entails a website for the <ins>City of Windsor</ins> which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
 
 There are various documents within this project, the project has been divided into 3 major phases these phases and what is within them include:
