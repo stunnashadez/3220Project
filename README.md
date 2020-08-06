@@ -1,11 +1,21 @@
 # 3220 Project - Open Data Access Portal Overview: 
 This project entails a website for the <ins>City of Windsor</ins> which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
 
-There are various documents within this project, the project has been divided into 3 major phases these phases include:
+There are various documents within this project, the project has been divided into 3 major phases these phases and what is within them include:
 
 <ins>Phase 1</ins>
 
-- Phase 1 contains the pdf file of the Inception report which describes the nature of the project, the vision and goals for the project and describes what steps we plan on taking to develop such a project, shedding light into what will come about in the next phases and iteration cycles.
+- Phase 1 contains the pdf file of the Inception report which describes the nature of the project, the vision for the project and describes what steps we plan on taking to develop such a project, shedding light into what will come about in the next phases and iteration cycles.
+
+- It also contains a small preview of what the open data access portal will look like based on our vision and goals for the project
+
+<ins>Phase 2</ins>
+
+
+
+
+
+<ins>Phase 3</ins>
 
 - CKAN code respository that represents the code that was used to develop an open data access portal.
 
