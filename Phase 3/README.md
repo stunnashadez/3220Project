@@ -1,2 +1,2 @@
-# Phase 3 Documenmtation
+# Phase 3 Documentation
 Phase 3 Elaboration Iteration 2 repository holds all the documents and files that were created during the third phase of the developmenmt process for this project. This includes a pdf report that describes the overall development that our team took during the third phase, tools we used, and management methods we took. It also includes UML diagrams that we drew which represent 5 different GRASP/GoF design patterns, the code repository that represents the actual open data access portal, proof of concept files, read me files, and other miscellaneous files all pertaining to this iteration cycle. 
