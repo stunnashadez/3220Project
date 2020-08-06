@@ -1,11 +1,11 @@
 # 3220 Project - Open Data Access Portal Overview: 
 This project entails a website for the <ins>City of Windsor</ins> which holds the data sets for various industries allowing the stakeholders of the City namely the taxpayers to use the open data for making strategic decisions.  
 
-There are various documents within this project these include the:
+There are various documents within this project, the project has been divided into 3 major phases these phases include:
 
-- Using CKAN to develop an open data access portal.
+<ins>Phase 1</ins>
 
-/*- Java files `CreateExcel.java`, `DeleteExcel.java`, `UpdateExcel.java`, and `UploadFile.java` which are capable of opening, adding, and deleting the excel sheets which maintain the open data for the website.*/
+- CKAN code respository that represents the code that was used to develop an open data access portal.
 
 - The html files which display a sample of the website's pages.
 
