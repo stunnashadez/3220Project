@@ -11,8 +11,6 @@ There are various documents within this project, the project has been divided in
 
 - The html files which display a sample of the website's pages.
 
-- An example excel sheet which represents the data block of a certain industry. 
-
 ### <ins>Phase 2</ins>
 
 - Java code `CreateExcel.java`, `UpdateExcel.java`, `UploadFile.java`, and `DeleteExcel.java` to load excel sheet to the website. Will need some libraries to run them.
@@ -22,6 +20,8 @@ There are various documents within this project, the project has been divided in
 - The UML diagrams which represent the use case, class, and sequence diagrams.
 
 - An pdf report that outlines the objective of the current phrase.
+
+- An example excel sheet which represents the data block of a certain industry. 
 
 ### <ins>Phase 3</ins>
 
