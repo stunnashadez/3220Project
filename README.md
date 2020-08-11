@@ -31,5 +31,5 @@ There are various documents within this project, the project has been divided in
 
 - The UML diagrams which represent 5 different GRASP/GoF design patterns.
 
-- An presentation slide which overview the report, diagrams, and showcase the demonstration result. 
+- An presentation slide which overview the report, diagrams, and showcase the demonstration result.
 
